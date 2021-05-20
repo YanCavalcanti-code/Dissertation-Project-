@@ -1,0 +1,19 @@
+var psp_outros = {
+"type": "FeatureCollection",
+"name": "PSP_outros",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "name": "Comando Metropolitano do Porto", "endereco": "Largo Primeiro de Dezembro, 3", "ctt": "4000-098", "estado": null }, "geometry": { "type": "Point", "coordinates": [ -8.6093164, 41.142756699999154 ] } },
+{ "type": "Feature", "properties": { "name": "Departamento de Turismo da Polícia de Segurança Pública", "endereco": "Rua Clube dos Fenianos, 19", "ctt": "4000-172", "estado": null }, "geometry": { "type": "Point", "coordinates": [ -8.6111891, 41.150087999999165 ] } },
+{ "type": "Feature", "properties": { "name": "Destacamento de Trânsito do Porto - Guarda Nacional Republicana", "endereco": "Rua do Carmo, s\/n", "ctt": "4050-164", "estado": null }, "geometry": { "type": "Point", "coordinates": [ -8.6169921, 41.147666299999166 ] } },
+{ "type": "Feature", "properties": { "name": "Polícia Municipal da CMP", "endereco": "Rua 13 - Bairro Rainha Dona Leonor", "ctt": "4150-734", "estado": null }, "geometry": { "type": "Point", "coordinates": [ -8.662165825606003, 41.14992354981311 ] } },
+{ "type": "Feature", "properties": { "name": "Comando Distrital de Operações de Socorro do Porto", "endereco": "Av. Fontes Pereira de Melo, 519", "ctt": "4100-262", "estado": null }, "geometry": { "type": "Point", "coordinates": [ -8.648566021341551, 41.178671564114815 ] } },
+{ "type": "Feature", "properties": { "name": "GNR - UAF DESTACAMENTO DE AÇÃO FISCAL DO PORTO", "endereco": "Rua de Monchique, 47", "ctt": "4050-394", "estado": null }, "geometry": { "type": "Point", "coordinates": [ -8.625744915303812, 41.144859372624005 ] } },
+{ "type": "Feature", "properties": { "name": "Polícia Marítima do Porto", "endereco": "Rua Nova da Afândega, 28", "ctt": "4050-430", "estado": null }, "geometry": { "type": "Point", "coordinates": [ -8.617146354191364, 41.140958708389086 ] } },
+{ "type": "Feature", "properties": { "name": "PSP - Divisão de Investigação Criminal do Porto", "endereco": "Rua dos Bragas, 61", "ctt": "4050-183", "estado": null }, "geometry": { "type": "Point", "coordinates": [ -8.614233528781835, 41.152711044878991 ] } },
+{ "type": "Feature", "properties": { "name": "PSP Armas e Explosivos", "endereco": "Rua Júlio Dinis, 63", "ctt": "4050-323", "estado": null }, "geometry": { "type": "Point", "coordinates": [ -8.62574357653229, 41.149383963527583 ] } },
+{ "type": "Feature", "properties": { "name": "PSP - 1ª Divisão Policial \/ Divisão de Trânsito", "endereco": "Rua de António Carneiro, 8", "ctt": "4300-253", "estado": null }, "geometry": { "type": "Point", "coordinates": [ -8.592616869125438, 41.146726997881956 ] } },
+{ "type": "Feature", "properties": { "name": "PSP - 2ª Divisão Policial", "endereco": "Praça do Cel. Pacheco, 46", "ctt": "4050-453", "estado": null }, "geometry": { "type": "Point", "coordinates": [ -8.614528492716778, 41.151271054564845 ] } },
+{ "type": "Feature", "properties": { "name": "PSP - 3ª Divisão Policial", "endereco": "Rua São Roque da Lameira, 304", "ctt": "4350-308", "estado": null }, "geometry": { "type": "Point", "coordinates": [ -8.580464112787384, 41.159727387473083 ] } }
+]
+}

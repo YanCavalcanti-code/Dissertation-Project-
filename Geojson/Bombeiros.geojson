@@ -1,0 +1,11 @@
+var bombeiros = {
+"type": "FeatureCollection",
+"name": "Bombeiros",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "INFO_ID": "SG.717", "MORADA": "Avenida Fontes Pereira de Melo, 519", "NOME": "Serviço Nacional de Bombeiros - Inspecção Regional de Bombeiros do Norte", "SUB_TIPO": "Bombeiros", "TELEFONE": "226197650", "TIPO": "Utilidades", "X": 156760.466457, "Y": 467848.31317500002, "CTT": "4250" }, "geometry": { "type": "Point", "coordinates": [ -8.648430747275249, 41.178669596568277 ] } },
+{ "type": "Feature", "properties": { "INFO_ID": "SG.711", "MORADA": "Rua Rodrigues Sampaio, 143 - 149", "NOME": "Associação Humanitária dos Bombeiros Voluntários do Porto", "SUB_TIPO": "Bombeiros", "TELEFONE": "222055845", "TIPO": "Utilidades", "X": 159987.425051, "Y": 464492.83127800003, "CTT": "4000-114" }, "geometry": { "type": "Point", "coordinates": [ -8.609754682026427, 41.148622258708627 ] } },
+{ "type": "Feature", "properties": { "INFO_ID": "PRT.PALM2.SG.19", "MORADA": "Rua das Cruzes, 580", "NOME": "Associação Humanitária dos Bombeiros Voluntários Portuenses", "SUB_TIPO": "Bombeiros", "TELEFONE": "226151806", "TIPO": "Utilidades", "X": 157291.37609899999, "Y": 466997.81730499998, "CTT": "4100-191" }, "geometry": { "type": "Point", "coordinates": [ -8.642044409869639, 41.171039861884644 ] } },
+{ "type": "Feature", "properties": { "INFO_ID": "PRT.PALM1.SG.64", "MORADA": "Rua da Constituição, 1418", "NOME": "Batalhão de Bombeiros Sapadores - Quartel Gomes Fernandes", "SUB_TIPO": "Bombeiros", "TELEFONE": "225073700", "TIPO": "Utilidades", "X": 160175.08770800001, "Y": 464231.45730499999, "CTT": "4250-168" }, "geometry": { "type": "Point", "coordinates": [ -8.607502277401487, 41.146278050742779 ] } }
+]
+}

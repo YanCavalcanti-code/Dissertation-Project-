@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <title>Mapeamento</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Conection css-->
+    <link rel="stylesheet" type="text/css" href="Projeto.css"/>
+
+    <!--Leaflet import-->
+    <link rel="stylesheet"href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css">
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    
+    <!--Draw CSS-->
+    <!--<link rel="stylesheet" href="http://leaflet.github.io/Leaflet.draw/leaflet.draw.css"/>-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/0.2.3/leaflet.draw.css"/>
+
+    <!--Basemap Control-->
+    <script type="text/javascript" src="./Basemap/providers.js"></script>
+    <script type="text/javascript" src="./Basemap/iconLayers.js"></script>
+    <link rel="stylesheet" href="./Basemap/iconLayers.css"/>
+
+    <!--Zoom Bar - Plugin Control JS-->
+    <script type="text/javascript" src="ZoomBar/L.Control.ZoomBar.js"></script>
+    <!--Zoom Bar - Plugin Control CSS-->
+    <link rel="stylesheet" type="text/css" href="ZoomBar/L.Control.ZoomBar.css"/>
+
+    <!--Ruler-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/gokertanrisever/leaflet-ruler@master/src/leaflet-ruler.css" integrity="sha384-P9DABSdtEY/XDbEInD3q+PlL+BjqPCXGcF8EkhtKSfSTr/dS5PBKa9+/PMkW2xsY" crossorigin="anonymous">  
+    <script src="https://cdn.jsdelivr.net/gh/gokertanrisever/leaflet-ruler@master/src/leaflet-ruler.js" integrity="sha384-N2S8y7hRzXUPiepaSiUvBH1ZZ7Tc/ZfchhbPdvOE5v3aBBCIepq9l+dBJPFdo1ZJ" crossorigin="anonymous"></script>
+
+    <!--Minimap-->
+    <link rel="stylesheet" href="Minimap/Control.MiniMap.css" />
+    <script src="Minimap/Control.MiniMap.js" type="text/javascript"></script>
+
+    <!--Mapcode-->
+    <script type="text/javascript" src="Mapcode/ndata.js"></script>
+    <script type="text/javascript" src="Mapcode/ctrynams.js"></script>
+    <script type="text/javascript" src="Mapcode/mapcode.js"></script>
+
+    <link rel="stylesheet" href="Mapcode/Leaflet.Mapcodes.css"/>
+    <script type="text/javascript" src="Mapcode/Leaflet.Mapcodes.js"></script>
+
+    <!--Grid-->
+    <script type="text/javascript" src="Grid/leaflet.latlng-graticule.js"></script>
+
+    <!--Import Geojson-->
+    <!--Areas-->
+    <script src="Geojson/CAOP_BGRI.geojson"></script>
+    <script src="Geojson/BGRI_Porto.geojson"></script>
+    <script src="Geojson/COS_Porto.geojson"></script>
+    <!--Police and Firefighters-->
+    <script src="Geojson/Esquadras_ativas.geojson"></script>
+    <script src="Geojson/PSP_outros.geojson"></script>
+    <script src="Geojson/Bombeiros.geojson"></script>
+
+</head>
+
+<body>
+
+    <!--Position/Adjust Map-->
+    <div id="map">i</div>
+
+    <!--Draw JS-->
+    <!--<script src="http://leaflet.github.io/Leaflet.draw/leaflet.draw.js"></script>-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.draw/0.2.3/leaflet.draw.js"></script>
+
+    <!--BGRI2 JS-->
+    <script type="text/javascript" src="Geojson/BGRI_Porto.js"></script>
+
+    <!--JavaScript Porjeto-->
+    <script src="Projeto.js"></script> 
+
+</body>
+</html>

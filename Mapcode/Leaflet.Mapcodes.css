@@ -1,0 +1,26 @@
+.leaflet-control-mapcodes {
+    background-color:#D8D8D8;
+    background-color:rgba(255, 255, 255, 0.8);
+    cursor:pointer;
+    color:#404040;
+    font-size:10pt;
+    opacity: 0.9;
+}
+.leaflet-control-mapcodes,
+.leaflet-control-mapcodes .uiElement input {
+    -webkit-border-radius:0px;
+    -moz-border-radius:0px;
+    border-radius:2px;
+}
+
+.leaflet-control-mapcodes .uiElement {
+    margin:1px;
+}
+
+.leaflet-control-mapcodes .uiElement .label span {
+    margin-right:1px;
+}
+
+.leaflet-control-mapcodes .uiHidden{
+    display:none;
+}
