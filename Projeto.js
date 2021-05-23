@@ -199,19 +199,19 @@ var Porto_Subseccao = new L.GeoJSON(bgri, {
 
 function getColor(Dens_Pop) {
   return Dens_Pop == 0.0 ? '#FFFFFF':
-         Dens_Pop < 1500.0  ? '#F2F5A9' :
-         Dens_Pop < 10000.0 ? '#F3F781' :
-         Dens_Pop < 25000.0 ? '#F7D358' :
-         Dens_Pop < 40000.0 ? '#FE9A2E' :
-         Dens_Pop < 55000.0 ? '#FF4000' :
-         Dens_Pop < 70000.0 ? '#DF0101' :
-         Dens_Pop < 85000.0 ? '#B40404' :
+         Dens_Pop < 1200.0  ? '#F2F5A9' :
+         Dens_Pop < 5000.0 ? '#F3F781' :
+         Dens_Pop < 10000.0 ? '#F7D358' :
+         Dens_Pop < 20000.0 ? '#FE9A2E' :
+         Dens_Pop < 30000.0 ? '#FF4000' :
+         Dens_Pop < 40000.0 ? '#DF0101' :
+         Dens_Pop < 50000.0 ? '#B40404' :
                           '#8A0808';
 }
 function style(feature) {
   return {
       fillColor: getColor(feature.properties.Dens_Pop),
-      weight: 1.2,
+      weight: 0.8,
       opacity: 1,
       color: '#424242',
       fillOpacity: 0.7,
@@ -240,7 +240,7 @@ function resetHighlight(e) {
  var density_hover = e.target;
 
  density_hover.setStyle({
-  weight: 1.2,
+  weight: 0.8,
   color: '#424242',
 });
 
