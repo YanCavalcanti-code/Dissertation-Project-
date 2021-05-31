@@ -690,19 +690,38 @@ L.control.ruler(options).addTo(map);
 
 //Layers Control
 
-var layers ={}
+//Dados Geográficos
+
+var layers1 ={}
 
 var layers2 ={
-  'Freguesias': porto_freguesias,
-  'Subsecção': Porto_Subseccao,
-  'COS': ocupsolo,
-  'DEM': topo_raster,
-  'Declive': slope,
-  'Dens.Populacional':population,
-  'Segurança Pública': segurança,
-}
+  'Dados Geográficos': {
+    'Freguesias': porto_freguesias,
+    'Subsecção': Porto_Subseccao,
+    'COS': ocupsolo,
+    'Elevação': topo_raster,
+    'Declive': slope,
+    'Dens.Populacional':population,
+  //'Segurança Pública': segurança,
+  }
+};
 
-L.control.layers(layers, layers2).addTo(map);
+L.control.groupedLayers(layers1, layers2, {collapsed:false}).addTo(map);
+
+
+//__________________________________________________//
+
+//Dados Crime
+
+var layers1_5 ={}
+
+var layers2_5 ={
+  'Dados Crime': {
+    'Segurança Pública': segurança,
+  }
+};
+
+L.control.groupedLayers(layers1_5, layers2_5, {collapsed:false, position: 'topright'}).addTo(map);
 
 //**********************************************************************************************************************************************************//
 //**********************************************************************************************************************************************************//
