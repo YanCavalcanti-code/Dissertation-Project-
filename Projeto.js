@@ -598,7 +598,7 @@ var zoom_bar = new L.Control.ZoomBar({position: 'topleft'}).addTo(map);
 
 //Draw Tools
 
-var drawnItems = new L.FeatureGroup();
+/*var drawnItems = new L.FeatureGroup();
 map.addLayer(drawnItems);
 
 // Initialise the draw control and pass it the FeatureGroup of editable layers
@@ -648,7 +648,7 @@ map.on('draw:created', function (e) {
   layer.bindPopup('A popup!');
   }
   drawnItems.addLayer(layer);
-});
+});*/
 
 //**********************************************************************************************************************************************************//
 //**********************************************************************************************************************************************************//
@@ -786,8 +786,17 @@ var ctrl = L.control.iconLayers(layers3).addTo(map);
 
 //Geocode Address
 
-var bingGeocoder = new L.Control.BingGeocoder('AiKnhK-3Jltdu8Vs_UZC9V7qjs8VS_cqPb5aj_fOyjOq1stkwP89tJxa6kSN9uNr');
-map.addControl(bingGeocoder);
+/*var bingGeocoder = new L.Control.BingGeocoder('AiKnhK-3Jltdu8Vs_UZC9V7qjs8VS_cqPb5aj_fOyjOq1stkwP89tJxa6kSN9uNr');
+map.addControl(bingGeocoder);*/
+
+var geocoder = L.Control.geocoder({
+  position:'topleft',
+  //defaultMarkGeocode: false,
+  //collapsed: false
+})
+
+.addTo(map);
+
 
 //**********************************************************************************************************************************************************//
 //**********************************************************************************************************************************************************//   
